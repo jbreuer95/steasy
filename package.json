@@ -1,0 +1,12 @@
+{
+  "name": "steasy",
+  "version": "0.0.1",
+  "description": "Easy styling framework for React Native",
+  "main": "index.js",
+  "repository": "http://github.com/jbreuer95/steasy",
+  "author": "Jelle Breuer & Lisanne ter Bille",
+  "license": "MIT",
+  "bin": {
+    "steasy": "./cli.js"
+  }
+}
