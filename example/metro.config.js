@@ -5,7 +5,12 @@
  * @format
  */
 
+const path = require('path');
+
+const reactNativeLib = path.resolve(__dirname, '..');
+
 module.exports = {
+  watchFolders: [path.resolve(__dirname, 'node_modules'), reactNativeLib],
   transformer: {
     getTransformOptions: async () => ({
       transform: {
@@ -13,5 +18,5 @@ module.exports = {
         inlineRequires: false,
       },
     }),
-  },
+  }
 };
