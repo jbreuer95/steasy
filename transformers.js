@@ -3,7 +3,7 @@ module.exports.addColors = (all, transform) => {
     for (const [name, value] of Object.entries(colors)) {
       if (typeof value === 'string') {
         all[`bg-${prefix || ''}${name}`] = { 'backgroundColor': value }
-        all[`text-${prefix || ''}${name}`] = { 'backgroundColor': value }
+        all[`text-${prefix || ''}${name}`] = { 'color': value }
       } else if (typeof value === 'object') {
         add(value, name + '-')
       }
