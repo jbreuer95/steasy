@@ -7,8 +7,10 @@ const App = () => {
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <View flex-row justify-around>
-          <Text>Hello World</Text>
+        <View flex-row bg-red-500>
+          <View pr-64>
+            <Text>Hello World</Text>
+          </View>
           <Text>Hello World</Text>
         </View>
       </SafeAreaView>

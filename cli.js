@@ -1,6 +1,9 @@
 #! /usr/bin/env node
 const files = require('./lib/files');
-const args = process.argv.slice(2)
+let base = require('./base.json')
+const config = require('./config')
+const transformers = require('./transformers')
+const args = process.argv.slice(2);
 
 if (args.includes('init')) {
   const exists = files.fileExists('steasy.config.js')
@@ -15,5 +18,7 @@ if (args.includes('init')) {
     console.log(`Default config copied to working directory (${process.cwd()}/steasy.config.js)`)
   }
 } else {
-
+  base = transformers.addColors(base, config.theme.colors);
+  base = transformers.addSpacing(base, config.theme.spacing);
+  files.saveFile("full.json", JSON.stringify(base));
 }

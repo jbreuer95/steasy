@@ -1,13 +1,13 @@
 'use strict';
-const base = require('./base.json')
+const full = require('./full.json')
 
 const hook = (initialProps) =>{
   const props = { ...initialProps };
   const styles = [];
   for (const [name, value] of Object.entries(props)) {
-      if (base.hasOwnProperty(name)) {
+      if (full.hasOwnProperty(name)) {
         if (value === true) {
-          styles.push(base[name]);
+          styles.push(full[name]);
         }
         delete props[name];
       }
