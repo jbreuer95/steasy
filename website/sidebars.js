@@ -1,5 +1,5 @@
 module.exports = {
   someSidebar: {
-    'Getting Started': ['installation']
+    'Getting Started': ['installation', 'usage', 'customization']
   },
 };

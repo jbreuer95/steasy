@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Steasy',
   tagline: 'Tailwind like styling for React Native',
-  url: 'https://steasy.io',
-  baseUrl: '/',
+  url: 'https://jbreuer.github.io',
+  baseUrl: '/steasy/',
   favicon: 'img/favicon.ico',
   organizationName: 'jbreuer95', // Usually your GitHub org/user name.
   projectName: 'steasy', // Usually your repo name.
