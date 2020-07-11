@@ -1,5 +1,5 @@
 'use strict';
-const full = require('./full.json')
+const full = require('./src/full.json')
 
 const hook = (initialProps) =>{
   const props = { ...initialProps };

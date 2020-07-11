@@ -20,5 +20,6 @@ if (args.includes('init')) {
 } else {
   base = transformers.addColors(base, config.theme.colors);
   base = transformers.addSpacing(base, config.theme.spacing);
+  base = transformers.addOpacity(base, config.theme.opacity);
   files.saveFile("full.json", JSON.stringify(base));
 }
