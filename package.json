@@ -7,7 +7,7 @@
   "author": "Jelle Breuer & Lisanne ter Bille",
   "license": "MIT",
   "bin": {
-    "steasy": "./cli.js"
+    "steasy": "./bin/cli.js"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
