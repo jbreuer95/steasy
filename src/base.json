@@ -58,5 +58,10 @@
     "normal-case": { "textTransform": "none" },
     "uppercase": { "textTransform": "uppercase" },
     "lowercase": { "textTransform": "lowercase" },
-    "capitalize": { "textTransform": "capitalize" }
+    "capitalize": { "textTransform": "capitalize" },
+    "overflow-visible": { "overflow": "visible" },
+    "overflow-hidden": { "overflow": "hidden" },
+    "overflow-scroll": { "overflow": "scroll" },
+    "absolute": { "position": "absolute" },
+    "relative": { "position": "relative" }
 }
