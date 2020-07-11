@@ -49,19 +49,43 @@ module.exports.addSpacing = (all, transform) => {
     'pe': 'paddingEnd',
     'ps': 'paddingStart'
   };
+  const positions = {
+    'top': 'top',
+    'right': 'right',
+    'bottom': 'bottom',
+    'left': 'left',
+    'end': 'end',
+    'start': 'start',
+    'inset': ['top', 'bottom', 'right', 'left'],
+    'inset-x': ['top', 'bottom'],
+    'inset-y': ['right', 'left'],
+  };
+  const spacing = {
+    'w': 'width',
+    'h': 'height',
+    'min-h': 'minHeight',
+    'max-h': 'maxHeight',
+    'min-w': 'minWidth',
+    'max-w': 'maxWidth',
+  };
+  const add = (name, value, set) => {
+    for (const [n, v] of Object.entries(set)) {
+      if (typeof v === 'string') {
+        all[`${n}-${name}`] = { [v]: value }
+      } else if (Array.isArray(v)) {
+        const values = {}
+        for (const sub_v of v) {
+          values[sub_v] = value
+        }
+        all[`${n}-${name}`] = values
+      }
+    }
+  }
   for (const [name, value] of Object.entries(transform)) {
-    for (const [n, v] of Object.entries(margins)) {
-      all[`${n}-${name}`] = { [v]: value }
-    }
-    for (const [n, v] of Object.entries(paddings)) {
-      all[`${n}-${name}`] = { [v]: value }
-    }
-  }
-  for (const [n, v] of Object.entries(margins)) {
-    all[`${n}-auto`] = { [v]: 'auto' }
-  }
-  for (const [n, v] of Object.entries(paddings)) {
-    all[`${n}-auto`] = { [v]: 'auto' }
+    add(name, value, margins);
+    add(name, value, paddings);
+    add(name, value, positions);
+    add(name, value, spacing);
   }
   return all
 }
