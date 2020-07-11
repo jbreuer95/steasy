@@ -17,7 +17,6 @@ const App = () => {
     </>
   );
 };
-export default App;
 
 const s = StyleSheet.create({
   title: {
@@ -25,4 +24,4 @@ const s = StyleSheet.create({
   },
 });
 
-
+export default App;
