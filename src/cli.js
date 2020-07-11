@@ -1,9 +1,15 @@
 #! /usr/bin/env node
 const files = require('./lib/files');
 let base = require('./base.json')
-const config = require('./config')
 const transformers = require('./transformers')
 const args = process.argv.slice(2);
+
+let config = require('./config')
+try {
+  config = require(`${process.cwd()}/steasy.config.js`);
+  console.log('Using custom config')
+} catch (e) {}
+
 
 if (args.includes('init')) {
   const exists = files.fileExists('steasy.config.js')
@@ -21,5 +27,5 @@ if (args.includes('init')) {
   base = transformers.addColors(base, config.theme.colors);
   base = transformers.addSpacing(base, config.theme.spacing);
   base = transformers.addOpacity(base, config.theme.opacity);
-  files.saveFile("full.json", JSON.stringify(base));
+  files.saveFile("steasy.json", JSON.stringify(base));
 }
