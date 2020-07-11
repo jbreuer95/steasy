@@ -1,26 +1,40 @@
-import React from 'react';
-import { SafeAreaView, StatusBar, StyleSheet } from 'react-native';
+import React, { Profiler } from 'react';
+import { SafeAreaView, StatusBar, StyleSheet, Text as BaseText } from 'react-native';
 import { View, Text } from './src/components';
 
 const App = () => {
+  function onRenderCallback(
+    id,
+    phase,
+    actualDuration,
+    baseDuration,
+    startTime,
+    commitTime,
+    interactions
+  ) {
+    console.log(`The component`, id, `, The phase`, phase, `, Time taken for the update`, actualDuration, baseDuration, startTime, commitTime, interactions);
+  }
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <View flex-row justify-between p-16>
-          <View mr-64>
-            <Text pr-64 text-red-500 opacity-25>Hello World</Text>
-          </View>
-          <Text>Hello World</Text>
-        </View>
+        <Profiler id="base-text" onRender={onRenderCallback}>
+          <BaseText style={s.base}>Hello World</BaseText>
+        </Profiler>
+        <Profiler id="steasy-text" onRender={onRenderCallback}>
+          <Text text-red-500 opacity-50 uppercase p-1>Hello World</Text>
+        </Profiler>
       </SafeAreaView>
     </>
   );
 };
 
 const s = StyleSheet.create({
-  title: {
-    // borderStyle: 'none',
+  base: {
+    color:"#f56565",
+    opacity: 0.5,
+    textTransform: 'uppercase',
+    padding: 1
   },
 });
 
