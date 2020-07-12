@@ -1,0 +1,4 @@
+---
+id: flexShrink
+title: flexShrink
+---

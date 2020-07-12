@@ -1,0 +1,4 @@
+---
+id: minWidth
+title: minWidth
+---

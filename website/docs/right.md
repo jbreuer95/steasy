@@ -1,0 +1,4 @@
+---
+id: right
+title: right
+---

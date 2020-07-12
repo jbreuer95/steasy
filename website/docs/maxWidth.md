@@ -1,0 +1,4 @@
+---
+id: maxWidth
+title: maxWidth
+---

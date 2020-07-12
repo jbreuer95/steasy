@@ -1,0 +1,4 @@
+---
+id: alignSelf
+title: alignSelf
+---

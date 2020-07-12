@@ -1,0 +1,4 @@
+---
+id: textAlign
+title: textAlign
+---
