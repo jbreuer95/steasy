@@ -1,4 +1,4 @@
-// import generator from '../util/generator';
-// import colors from '../util/color';
+import generator from '../generator';
+import config from '../configHandler';
 
-// export default generator.generate('bg', 'backgroundColor', colors);
+export default generator.generate('bg', 'backgroundColor', config.theme.colors);
