@@ -10,14 +10,28 @@ export default {
     if (name) {
       name += '-';
     }
-    for (const value of values) {
-      if (typeof value === 'string') {
-        keyStyleName = `${name}${value}`
-        styles[keyStyleName] = { [key]: value }
-      } else if (Array.isArray(value)) {
-        if (value.length === 2) {
-          keyStyleName = `${name}${value[0]}`
-          styles[keyStyleName] = { [key]: value[1] }
+    if (Array.isArray(values)) {
+      for (const value of values) {
+        if (typeof value === 'string') {
+          keyStyleName = `${name}${value}`
+          styles[keyStyleName] = { [key]: value }
+        } else if (Array.isArray(value)) {
+          if (value.length === 2) {
+            keyStyleName = `${name}${value[0]}`
+            styles[keyStyleName] = { [key]: value[1] }
+          }
+        }
+      }
+    } else {
+      for (const [subName, value] of Object.entries(values)) {
+        if (typeof value === 'string') {
+          keyStyleName = `${name}${subName}`
+          styles[keyStyleName] = { [key]: value }
+        } else if (typeof value === 'object' &&!Array.isArray(value)) {
+          for (const [deepName, deepvalue] of Object.entries(value)) {
+            keyStyleName = `${name}${subName}-${deepName}`
+            styles[keyStyleName] = { [key]: deepvalue }
+          }
         }
       }
     }

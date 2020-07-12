@@ -1,4 +1,4 @@
-// import generator from '../generator';
-// import colors from '../util/color';
+import generator from '../generator';
+import config from '../configHandler';
 
-// export default generator.generate('tint', 'tintColor', colors);
+export default generator.generate('tint', 'tintColor', config.theme.colors);
