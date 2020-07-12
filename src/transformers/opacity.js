@@ -1,4 +1,4 @@
-// import generator from '../generator';
-// // import config from '../configHandler';
+import generator from '../generator';
+import config from '../configHandler';
 
-// export default generator.generate('opacity', 'opacity', config.theme.opacity);
+export default generator.generate('opacity', 'opacity', config.theme.opacity);
