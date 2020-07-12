@@ -1,16 +1,16 @@
-'use strict';
-const hook = (initialProps) =>{
-  let steasy = require('../../steasy.json');
+import transformers from './src/transformers/index'
 
+
+export default (initialProps) => {
   const props = { ...initialProps };
   const styles = [];
   for (const [name, value] of Object.entries(props)) {
-      if (steasy.hasOwnProperty(name)) {
-        if (value === true) {
-          styles.push(steasy[name]);
-        }
-        delete props[name];
+    if (transformers.hasOwnProperty(name)) {
+      if (value === true) {
+        styles.push(transformers[name]);
       }
+      delete props[name];
+    }
   }
   if ('style' in props) {
     const value = props.style;
@@ -23,6 +23,3 @@ const hook = (initialProps) =>{
   }
   return { styles, props };
 }
-
-module.exports = hook;
-module.exports.default = hook;
