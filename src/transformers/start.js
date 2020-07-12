@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('start', 'start', theme.inset);
+// export default generator.generate('start', 'start', config.theme.inset);

@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('tracking', 'letterSpacing', theme.letterSpacing);
+// export default generator.generate('tracking', 'letterSpacing', config.theme.letterSpacing);

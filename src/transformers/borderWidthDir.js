@@ -1,7 +1,7 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('border-dir', 'borderWidth', theme.borderWidth, [
+// export default generator.generate('border-dir', 'borderWidth', config.theme.borderWidth, [
 //     ['x', ['borderEndWidth', 'borderStartWidth']],
 //     ['e', 'borderEndWidth'],
 //     ['s', 'borderStartWidth'],

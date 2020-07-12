@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('h', 'height', theme.height);
+// export default generator.generate('h', 'height', config.theme.height);

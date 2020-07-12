@@ -1,7 +1,7 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('p', 'padding', theme.padding, [
+// export default generator.generate('p', 'padding', config.theme.padding, [
 //     ['x', 'paddingHorizontal'],
 //     ['y', 'paddingVertical'],
 //     ['t', 'paddingTop'],

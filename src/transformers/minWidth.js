@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('min-w', 'minWidth', theme.minWidth);
+// export default generator.generate('min-w', 'minWidth', config.theme.minWidth);

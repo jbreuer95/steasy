@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('text', 'fontSize', theme.fontSize);
+// export default generator.generate('text', 'fontSize', config.theme.fontSize);

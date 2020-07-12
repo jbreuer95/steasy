@@ -1,4 +1,4 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('z', 'zIndex', theme.zIndex);
+// export default generator.generate('z', 'zIndex', config.theme.zIndex);

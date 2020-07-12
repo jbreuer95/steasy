@@ -1,5 +1,5 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
 // export default generator.generate('inset', ['top', 'bottom', 'left', 'right'], theme.inset, [
 //     ['x', ['left', 'right']],

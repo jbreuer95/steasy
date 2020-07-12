@@ -1,7 +1,7 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('m', 'margin', theme.margin, [
+// export default generator.generate('m', 'margin', config.theme.margin, [
 //     ['x', 'marginHorizontal'],
 //     ['y', 'marginVertical'],
 //     ['t', 'marginTop'],

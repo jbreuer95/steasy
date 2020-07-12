@@ -1,7 +1,7 @@
 // import generator from '../generator';
-// import theme from '../util/configHandler';
+// // import config from '../configHandler';
 
-// export default generator.generate('rounded-dir', 'borderRadius', theme.borderRadius, [
+// export default generator.generate('rounded-dir', 'borderRadius', config.theme.borderRadius, [
 //     ['e', ['borderTopEndRadius', 'borderBottomEndRadius']],
 //     ['s', ['borderTopStartRadius', 'borderBottomStartRadius']],
 //     ['ts', 'borderTopStartRadius'],
