@@ -260,6 +260,24 @@ module.exports = {
       '5xl': 3 * 16,
       '6xl': 4 * 16,
     },
+    fontFamily: {
+      sans: 'Arial',
+      serif: 'Georgia',
+      mono: 'Courier New',
+    },
+    flex: {
+      '1': '1',
+      initial: '-1',
+      none: '0',
+    },
+    flexGrow: {
+      '0': '0',
+      default: '1',
+    },
+    flexShrink: {
+      '0': '0',
+      default: '1',
+    },
     zIndex: {
       '0': 0,
       '10': 10,

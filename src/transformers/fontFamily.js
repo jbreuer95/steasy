@@ -1,4 +1,4 @@
-// import generator from '../generator';
-// import config from '../configHandler';
+import generator from '../generator';
+import config from '../configHandler';
 
-// export default generator.generate('font', 'fontFamily', config.theme.fontFamily);
+export default generator.generate('font', 'fontFamily', config.theme.fontFamily);

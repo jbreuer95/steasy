@@ -1,4 +1,4 @@
-// import generator from '../generator';
-// import config from '../configHandler';
+import generator from '../generator';
+import config from '../configHandler';
 
-// export default generator.generate('flex-shrink', 'flexShrink', config.theme.flexShrink);
+export default generator.generate('flex-shrink', 'flexShrink', config.theme.flexShrink);
