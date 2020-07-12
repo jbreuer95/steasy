@@ -1,5 +1,5 @@
 // import generator from '../generator';
-// // import config from '../configHandler';
+// import config from '../configHandler';
 
 // export default generator.generate('p', 'padding', config.theme.padding, [
 //     ['x', 'paddingHorizontal'],
