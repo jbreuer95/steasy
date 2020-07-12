@@ -1,6 +1,5 @@
 import transformers from './src/transformers/index'
 
-
 export default (initialProps) => {
   const props = { ...initialProps };
   const styles = [];
