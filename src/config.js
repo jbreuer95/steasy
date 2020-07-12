@@ -181,6 +181,8 @@ module.exports = {
       lg: 25,
       full: 9999,
     },
+    padding: theme => (theme['spacing']),
+    margin: theme => (theme['spacing']),
     height: theme => ({
       auto: 'auto',
       ...theme['spacing'],
