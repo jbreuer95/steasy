@@ -22,7 +22,7 @@ const App = () => {
           <BaseText style={s.base}>Hello World</BaseText>
         </Profiler>
         <Profiler id="steasy-text" onRender={onRenderCallback}>
-          <Text text-red-500 opacity-50 uppercase p-1>Hello World</Text>
+          <Text uppercase mr-64 text-red-500 opacity-50 p-1>Hello World</Text>
         </Profiler>
       </SafeAreaView>
     </>
@@ -35,7 +35,7 @@ const s = StyleSheet.create({
     opacity: 0.5,
     textTransform: 'uppercase',
     padding: 1
-  },
+  }
 });
 
 export default App;

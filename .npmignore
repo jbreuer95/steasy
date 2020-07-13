@@ -14,5 +14,5 @@ yarn.lock
 .idea/
 .vscode/
 
-src/
 example/
+website/
