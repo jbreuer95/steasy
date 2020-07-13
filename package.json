@@ -1,6 +1,6 @@
 {
   "name": "steasy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Easy styling framework for React Native",
   "main": "index.js",
   "repository": "http://github.com/jbreuer95/steasy",
