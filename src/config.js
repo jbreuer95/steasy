@@ -266,17 +266,17 @@ module.exports = {
       mono: 'Courier New',
     },
     flex: {
-      '1': '1',
-      initial: '-1',
-      none: '0',
+      '1': 1,
+      initial: -1,
+      none: 0,
     },
     flexGrow: {
-      '0': '0',
-      default: '1',
+      '0': 0,
+      default: 1,
     },
     flexShrink: {
-      '0': '0',
-      default: '1',
+      '0': 0,
+      default: 1,
     },
     zIndex: {
       '0': 0,
