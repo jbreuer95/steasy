@@ -1,4 +1,5 @@
 ---
-id: fontFamily
 title: fontFamily
 ---
+# fontFamily
+<PropTable name="fontFamily"></PropTable>

@@ -1,4 +1,5 @@
 ---
-id: customization
-title: Customization
+title: customization
 ---
+# customization
+<PropTable name="customization"></PropTable>

@@ -1,4 +1,5 @@
 ---
-id: flexGrow
 title: flexGrow
 ---
+# flexGrow
+<PropTable name="flexGrow"></PropTable>

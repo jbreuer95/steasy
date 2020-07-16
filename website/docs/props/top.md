@@ -1,4 +1,5 @@
 ---
-id: top
 title: top
 ---
+# top
+<PropTable name="top"></PropTable>

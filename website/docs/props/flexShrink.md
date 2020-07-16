@@ -1,4 +1,5 @@
 ---
-id: flexShrink
 title: flexShrink
 ---
+# flexShrink
+<PropTable name="flexShrink"></PropTable>

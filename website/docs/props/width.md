@@ -1,4 +1,5 @@
 ---
-id: width
 title: width
 ---
+# width
+<PropTable name="width"></PropTable>

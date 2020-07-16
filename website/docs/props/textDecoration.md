@@ -1,4 +1,5 @@
 ---
-id: textDecoration
 title: textDecoration
 ---
+# textDecoration
+<PropTable name="textDecoration"></PropTable>

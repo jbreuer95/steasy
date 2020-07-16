@@ -1,4 +1,5 @@
 ---
-id: borderColor
 title: borderColor
 ---
+# borderColor
+<PropTable name="borderColor"></PropTable>

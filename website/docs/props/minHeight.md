@@ -1,4 +1,5 @@
 ---
-id: minHeight
 title: minHeight
 ---
+# minHeight
+<PropTable name="minHeight"></PropTable>

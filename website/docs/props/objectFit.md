@@ -1,4 +1,5 @@
 ---
-id: objectFit
 title: objectFit
 ---
+# objectFit
+<PropTable name="objectFit"></PropTable>

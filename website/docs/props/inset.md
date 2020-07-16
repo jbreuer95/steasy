@@ -1,4 +1,5 @@
 ---
-id: inset
 title: inset
 ---
+# inset
+<PropTable name="inset"></PropTable>

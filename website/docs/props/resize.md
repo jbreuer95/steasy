@@ -1,4 +1,5 @@
 ---
-id: resize
 title: resize
 ---
+# resize
+<PropTable name="resize"></PropTable>

@@ -1,4 +1,5 @@
 ---
-id: flexDirection
 title: flexDirection
 ---
+# flexDirection
+<PropTable name="flexDirection"></PropTable>

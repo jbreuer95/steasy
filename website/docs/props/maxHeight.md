@@ -1,4 +1,5 @@
 ---
-id: maxHeight
 title: maxHeight
 ---
+# maxHeight
+<PropTable name="maxHeight"></PropTable>

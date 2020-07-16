@@ -1,4 +1,5 @@
 ---
-id: opacity
 title: opacity
 ---
+# opacity
+<PropTable name="opacity"></PropTable>

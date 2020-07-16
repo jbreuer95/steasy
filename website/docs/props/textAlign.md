@@ -1,4 +1,5 @@
 ---
-id: textAlign
 title: textAlign
 ---
+# textAlign
+<PropTable name="textAlign"></PropTable>

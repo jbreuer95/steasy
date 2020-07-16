@@ -1,4 +1,5 @@
 ---
-id: minWidth
 title: minWidth
 ---
+# minWidth
+<PropTable name="minWidth"></PropTable>

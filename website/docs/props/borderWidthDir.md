@@ -1,4 +1,5 @@
 ---
-id: borderWidthDir
 title: borderWidthDir
 ---
+# borderWidthDir
+<PropTable name="borderWidthDir"></PropTable>

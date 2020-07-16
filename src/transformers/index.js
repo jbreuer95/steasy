@@ -54,9 +54,8 @@ import top from './top';
 import verticalAlign from './verticalAlign';
 import width from './width';
 import zIndex from './zIndex';
-let style = {};
 
-Object.assign(style,
+let all = {
     alignContent,
     alignItems,
     alignSelf,
@@ -112,7 +111,15 @@ Object.assign(style,
     zIndex,
     borderRadiusDir,
     borderWidthDir,
-    insetDir,
-);
+    insetDir
+}
+
+let style = {}
+
+for (const [name, value] of Object.entries(all)) {
+    Object.assign(style, value)
+}
+
+export { all }
 
 export default style;

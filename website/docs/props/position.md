@@ -1,4 +1,5 @@
 ---
-id: position
 title: position
 ---
+# position
+<PropTable name="position"></PropTable>

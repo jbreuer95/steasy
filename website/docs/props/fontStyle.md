@@ -1,4 +1,5 @@
 ---
-id: fontStyle
 title: fontStyle
 ---
+# fontStyle
+<PropTable name="fontStyle"></PropTable>

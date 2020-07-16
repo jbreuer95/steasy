@@ -1,4 +1,5 @@
 ---
-id: margin
 title: margin
 ---
+# margin
+<PropTable name="margin"></PropTable>

@@ -1,4 +1,5 @@
 ---
-id: alignItems
 title: alignItems
 ---
+# alignItems
+<PropTable name="alignItems"></PropTable>

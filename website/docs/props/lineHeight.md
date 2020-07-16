@@ -1,4 +1,5 @@
 ---
-id: lineHeight
 title: lineHeight
 ---
+# lineHeight
+<PropTable name="lineHeight"></PropTable>

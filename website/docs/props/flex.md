@@ -1,4 +1,5 @@
 ---
-id: flex
 title: flex
 ---
+# flex
+<PropTable name="flex"></PropTable>

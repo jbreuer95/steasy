@@ -1,4 +1,5 @@
 ---
-id: borderRadiusDir
 title: borderRadiusDir
 ---
+# borderRadiusDir
+<PropTable name="borderRadiusDir"></PropTable>
