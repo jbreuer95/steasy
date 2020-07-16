@@ -9,8 +9,13 @@
   "bin": {
     "steasy": "./src/cli.js"
   },
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
   "devDependencies": {
     "@babel/core": "^7.8.4",
-    "@babel/runtime": "^7.8.4"
+    "@babel/runtime": "^7.8.4",
+    "vuepress": "^1.5.2"
   }
 }

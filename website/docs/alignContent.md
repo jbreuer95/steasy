@@ -1,4 +1,0 @@
----
-id: alignContent
-title: alignContent
----

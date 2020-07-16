@@ -1,7 +1,8 @@
 ---
-id: installation
 title: Installation
 ---
+
+# Installation
 
 ### Get library
 
