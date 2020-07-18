@@ -4,6 +4,8 @@ module.exports = {
   base: '/steasy/',
   themeConfig: {
     repo: 'jbreuer95/steasy',
+    docsDir: 'website',
+    editLinks: true,
     nav: [
       { text: 'Docs', link: '/docs/' },
     ],
