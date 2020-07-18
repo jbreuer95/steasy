@@ -1,6 +1,7 @@
 module.exports = {
   title: 'Steasy',
   description: 'Tailwind like styling for React Native',
+  base: '/steasy/',
   themeConfig: {
     repo: 'jbreuer95/steasy',
     nav: [
@@ -8,9 +9,9 @@ module.exports = {
     ],
     sidebar: [
       {
-        title: 'Getting Started',   // required
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
+        title: 'Getting Started',
+        collapsable: false,
+        sidebarDepth: 1,
         children: [
           ['/docs/', 'Installation'],
           '/docs/usage',
@@ -18,9 +19,9 @@ module.exports = {
         ]
       },
       {
-        title: 'Props',   // required
-        collapsable: false, // optional, defaults to true
-        sidebarDepth: 1,    // optional, defaults to 1
+        title: 'Props',
+        collapsable: false,
+        sidebarDepth: 1,
         children: [
           '/docs/props/alignContent',
           '/docs/props/alignItems',
@@ -77,7 +78,8 @@ module.exports = {
           '/docs/props/top',
           '/docs/props/verticalAlign',
           '/docs/props/width',
-          '/docs/props/zIndex'
+          '/docs/props/zIndex',
+          '/docs/props/overlayColor'
         ]
       },
     ]

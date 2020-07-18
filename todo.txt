@@ -9,7 +9,6 @@
 "elevation"
 "flexBasis"
 "fontVariant"
-"overlayColor"
 "rotation"
 "scaleX"
 "scaleY"

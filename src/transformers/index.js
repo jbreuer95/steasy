@@ -54,6 +54,7 @@ import top from './top';
 import verticalAlign from './verticalAlign';
 import width from './width';
 import zIndex from './zIndex';
+import overlayColor from './overlayColor';
 
 let all = {
     alignContent,
@@ -111,7 +112,8 @@ let all = {
     zIndex,
     borderRadiusDir,
     borderWidthDir,
-    insetDir
+    insetDir,
+    overlayColor
 }
 
 let style = {}
