@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
   .left {
-    width: 33%;
+    width: 32%;
   }
   .middle {
     width: 100%;
